@@ -1,0 +1,70 @@
+module.exports = () => {
+    const movies = [
+        {name:"Prestige",
+        agereq:13,
+        img:"https://upload.wikimedia.org/wikipedia/en/d/d2/Prestige_poster.jpg",
+        seats:[
+            {number:1,reserved:""},
+            {number:2,reserved:""},
+            {number:3,reserved:""},
+            {number:4,reserved:""},
+            {number:5,reserved:""},
+            {number:6,reserved:""},
+            {number:7,reserved:""},
+            {number:8,reserved:""},
+            {number:9,reserved:""},
+            {number:10,reserved:""}
+        ]
+        },
+        {name:"Lion King",
+        agereq:0,
+        img:"https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_.jpg",
+        seats:[
+            {number:1,reserved:""},
+            {number:2,reserved:""},
+            {number:3,reserved:""},
+            {number:4,reserved:""},
+            {number:5,reserved:""},
+            {number:6,reserved:""},
+            {number:7,reserved:""},
+            {number:8,reserved:""},
+            {number:9,reserved:""},
+            {number:10,reserved:""}
+        ]
+        },
+        {name:"Logan",
+        agereq:18,
+        img:"https://lumiere-a.akamaihd.net/v1/images/logan_584x800_9a5af33a.jpeg",
+        seats:[
+            {number:1,reserved:""},
+            {number:2,reserved:""},
+            {number:3,reserved:""},
+            {number:4,reserved:""},
+            {number:5,reserved:""},
+            {number:6,reserved:""},
+            {number:7,reserved:""},
+            {number:8,reserved:""},
+            {number:9,reserved:""},
+            {number:10,reserved:""}
+        ]
+        },{name:"Deadpool",
+        agereq:18,
+        img:"https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg",
+        seats:[
+            {number:1,reserved:""},
+            {number:2,reserved:""},
+            {number:3,reserved:""},
+            {number:4,reserved:""},
+            {number:5,reserved:""},
+            {number:6,reserved:""},
+            {number:7,reserved:""},
+            {number:8,reserved:""},
+            {number:9,reserved:""},
+            {number:10,reserved:""}
+        ]
+        }
+    ]
+    
+
+    return movies
+}

@@ -1,0 +1,100 @@
+.App {
+  padding: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.a-center {
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.grow1 {
+  flex: 1;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.p50 {
+  padding: 50px;
+}
+
+.day {
+  height: 100px;
+  width: 100px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+}
+
+.hour {
+  background-color: #eeeeee;
+  margin-bottom: 5px;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checked {
+  background-color: #f1caac;
+}
+
+.border {
+  border: 2px solid black;
+}
+.moviecard{
+  height: 400px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgray;
+  flex-direction: column;
+  margin:10PX;
+}
+.moviecard>img{
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+.seats{
+  height: 50px;
+  width: 50px;
+  border:1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 5PX;
+  cursor: pointer;
+}
+.auditorium{
+  height:150px ;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
